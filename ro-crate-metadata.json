@@ -17,8 +17,8 @@
             "@id": "https://github.com/fbacall/dummy-workflow",
             "@type": "Dataset",
             "name": "sort-and-change-case",
-            "version": "1.0.0",
-            "description": "sort lines and change text to upper case",
+            "version": "1.0.1",
+            "description": "sort lines and change text to upper case. indeed",
             "license": "https://opensource.org/licenses/MIT",
             "mainEntity": {
                 "@id": "sort-and-change-case.ga"

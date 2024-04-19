@@ -6,7 +6,6 @@
 https://dev.workflowhub.eu/workflows/submit
 
 ### Requirements
-
 A URI (source URL) and version name are used together to determine whether to:
 - Create a new workflow entry.
 - Create a new version within an existing workflow entry.
@@ -19,10 +18,14 @@ This is determined from (in descending order of precedence):
 - `url` of the Root Data Entity.
 - `url` of the Main Workflow.
 
+This appears as 
+
 #### Version
-A `version` property on the Root Data Entity is required to name the submitted workflow/version.
+This is taken from the `version` property of the Root Data Entity, and is what will appear as the version name in WorkflowHub.
 
 ### Examples
+An example of a valid Workflow RO-Crate with a source URL and version can be found in this repository.
+
 These examples assume the RO-Crate is in a file at path_to_your_ro.crate.zip, and you want to add it to a Team with ID 1234.
 
 Via curl:
